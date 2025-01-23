@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.main-container{
+    width: 60vw;
+    min-height: 95vh;
+    background-color: rgba(138, 243, 138, 0.9);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main-container div{
+    position: absolute;
+    width: 30%;
+    height: 85%;
+    background-color: white;
+    border-radius: 3%;
+}
+.main-container div div{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    height: 85%;
+    width: 100%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 0px;
+    background-color: rgb(2, 51, 10);
+}
+.left-container{
+    left: 13%;
+
+}
+.right-container{
+    right: 13%;
+}
+.login-container div{
+    background-color: white;
+    width: 10px;
+    position: absolute;
+    height: 10px;
+   
+}
